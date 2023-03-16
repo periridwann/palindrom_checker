@@ -6,9 +6,9 @@ public class PalindromeChecker {
         System.out.print("Masukkan kata yang ingin diperiksa: ");
         String text = scanner.nextLine();
         if (isPalindrome(text)) {
-            System.out.println(text + " adalah palindrome.");
+            System.out.println(text + " adalah kata palindrome.");
         } else {
-            System.out.println(text + " bukan palindrome.");
+            System.out.println(text + " bukan kata palindrome.");
         }
     }
 
